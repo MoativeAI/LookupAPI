@@ -23,8 +23,7 @@ This FastAPI-based API provides company information lookup services. It offers t
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/MoativeAI/LookupAPI.git
    ```
 
 2. Install the required packages:
