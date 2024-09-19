@@ -6,7 +6,7 @@ from naics_rag.embeddings import get_embedding_function
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
-CHROMA_PATH = "naics_rag/chroma"
+CHROMA_PATH = "chroma"
 
 def query_rag(query_text: str, prompt):
     # Prepare the DB.
