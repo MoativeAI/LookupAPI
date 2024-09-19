@@ -7,8 +7,8 @@ from langchain.schema.document import Document
 from naics_rag.embeddings import get_embedding_function
 from langchain_chroma import Chroma
 
-CHROMA_PATH = "naics_rag/chroma"
-DATA_PATH = "naics_rag/data"
+CHROMA_PATH = "chroma"
+DATA_PATH = "data"
 
 
 def main():
